@@ -1,4 +1,10 @@
 
+$(function (){
+  //Adjust Header Height
+  $('.section').height($(window).height());
+
+
+
 //Scrolling
 
 $('.nav-link[href*="#"]').click(function () {
@@ -72,4 +78,4 @@ $('textarea').keyup(function() {
   }
 });
 
-  
+  });
