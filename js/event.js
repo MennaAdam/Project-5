@@ -58,13 +58,12 @@ function countDownTimer(date) {
   document.getElementById("days").innerHTML=  days + " D",
   document.getElementById("hours").innerHTML= "0" + "-" + hours + " h",
   document.getElementById("minutes").innerHTML=  "0" + "-" + min + " m" ,
-  document.getElementById("seconds").innerHTML=  "0" + "-" + sec + " s";                           
- 
+  document.getElementById("seconds").innerHTML=  "0" + "-" + sec + " s";
   });
 
 }
 
-countDownTimer('May 13, 2019 09:00:00');
+countDownTimer('May 13, 2020 09:00:00');
 
 //Textarea characters counter
 
